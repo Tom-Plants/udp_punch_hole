@@ -18,8 +18,8 @@ class UdpPunchServer
 };
 
 interface UdpPunchServerConfig {
-	localPort: 10000,
-	localHost: "localhsot"
+	localPort: number,
+	localHost: string
 };
 
 let config: UdpPunchServerConfig = {
